@@ -1,0 +1,14 @@
+# Create a report of the results of the Scientific Computing Survey
+- Explore the SCS: https://mikloskoren.typeform.com/to/t0uH7F
+- Write a Python script to pull survey results from a Google Spreadsheet to a .csv file.
+- Split responses to multiple choice questions in Python lists or other proper data formats.
+- Create beautiful visualization of
+	- distribution of software usage (most people use multiple software)
+	- distribution of tool usage (most people use multiple tools)
+	- gap between awareness (familiar with tool) and usage (used twice in the last month)
+	- distribution of development goals
+- Conduct multivariate/conditional analysis of the above by
+	- field of research
+	- year of Phd
+- Select appropriate visualizations for these (not regression tables).
+- Create a beautiful report. (Everything can be a single Jupyter notebook.)
