@@ -16,3 +16,18 @@ All packages stored on https://zenodo.org/ with metadata and DOI so that they ar
 - Build a datastore of metadata of replication packages. (zenodo UI? submisssion form in .docx format? new, structured submission form?)
 - Develop/test tool to upload ZIP files to GitHub as new repos.
 - Develop/test tool to pull these repos over to Zenodo and publish them with a DOI.
+
+## Workflow
+### For existing packages
+1. Scipt prepares packages and metadata and stores them in a staging area
+2. User manually checks and edits all metadata and approves packages. UI: .csv file or Google Spreadsheet
+  - request edits from authors?
+3. Script requests DOI for each package and saves them in metadata in staging area
+4. Script uploads small packages to github (creating a release) and zenodo 
+5. Script uploads large packages to zenodo, entering a simple README.md with metadata, doi and link to zenodo on github
+
+## For new packages
+1. Author filles in sctructured submission form. UI: jotform or similar
+2. Metadata and package enter staging area (what backend to use?)
+3. Data Editor reviews package
+4. Script uploads to github and zenodo
